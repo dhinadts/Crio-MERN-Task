@@ -16,7 +16,7 @@ const taskRoutes = require("./routes/taskRoutes");
 
 const app = express();
 const PORT = 8082;
-const MONGO_URL = 'mongodb://localhost:27017/task-manager';
+const MONGO_URL = 'mongodb+srv://dhinadts:Qwerty%40123@cluster0.g8vjqco.mongodb.net/task-manager?appName=Cluster0';
 
 mongoose.connect(MONGO_URL,/*  {
     useNewUrlParser: true, useUnifiedTopology: true
